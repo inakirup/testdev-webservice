@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'; // Import your App.css if you have one
+import './App.css';
 import PolicyComponent from './components/PolicyComponent';
 
 function App() {
