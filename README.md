@@ -74,11 +74,11 @@ This project consists of a Spring Boot backend that provides policy information 
 ```json
 {
   "headerData": {
-    "messageId": "string",
-    "sendDateTime": "string"
+    "messageId": "123",
+    "sendDateTime": "2011-12-30 23:59:59"
   },
   "requestRecord": {
-    "insureName": "string"
+    "insureName": "นายA1"
   }
 }
 ```
@@ -86,28 +86,28 @@ This project consists of a Spring Boot backend that provides policy information 
 **Response Body**:
 ```json
 {
-  "headerData": {
-    "messageId": "string",
-    "sendDateTime": "string",
-    "responseDateTime": "string"
-  },
-  "responseRecord": {
-    "policy": [
-      {
-        "policyNo": "string",
-        "status": "string",
-        "agentID": "string"
-      }
-    ],
-    "policyNo": "string",
-    "policyType": "string",
-    "status": "string",
-    "agentID": "string"
-  },
-  "responseStatus": {
-    "status": "string",
-    "errorCode": "string",
-    "errorMessage": "string"
-  }
+    "headerData": {
+        "messageId": "123",
+        "sendDateTime": "2011-12-30 23:59:59",
+        "responseDateTime": "2025-04-19 11:35:33"
+    },
+    "responseRecord": {
+        "policy": [
+            {
+                "policyNo": "P00031",
+                "status": "A",
+                "agenID": "00000005"
+            }
+        ],
+        "policyNo": "P00031",
+        "policyType": "CL",
+        "status": "A",
+        "agenID": "00000005"
+    },
+    "responseStatus": {
+        "status": "S",
+        "errorCode": "",
+        "errorMessage": ""
+    }
 }
 ```
