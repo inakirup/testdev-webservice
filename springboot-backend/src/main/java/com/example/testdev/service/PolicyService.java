@@ -40,14 +40,14 @@ public class PolicyService {
             response.setResponseRecord(record);
 
             // Create a mock response status
-            ResponseStataus status = new ResponseStataus();
+            ResponseStatus status = new ResponseStatus();
             status.setStatus("S");
             status.setErrorCode("");
             status.setErrorMessage("");
             response.setResponseStatus(status);
         } else {
             // No policy found
-            ResponseStataus status = new ResponseStataus();
+            ResponseStatus status = new ResponseStatus();
             status.setStatus("E");
             status.setErrorCode("404");
             status.setErrorMessage("No policy found for the given insured name.");

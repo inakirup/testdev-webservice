@@ -1,6 +1,6 @@
 package com.example.testdev.model;
 
-public class ResponseStataus {
+public class ResponseStatus {
     private String status;
     private String errorCode;
     private String errorMessage;

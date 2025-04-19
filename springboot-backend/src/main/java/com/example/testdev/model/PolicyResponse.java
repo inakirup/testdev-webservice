@@ -3,7 +3,7 @@ package com.example.testdev.model;
 public class PolicyResponse {
     private HeaderDataResponse headerData;
     private ResponseRecord responseRecord;
-    private ResponseStataus responseStatus;
+    private ResponseStatus responseStatus;
 
     public HeaderDataResponse getHeaderData() {
         return headerData;
@@ -21,11 +21,11 @@ public class PolicyResponse {
         this.responseRecord = responseRecord;
     }
 
-    public ResponseStataus getResponseStatus() {
+    public ResponseStatus getResponseStatus() {
         return responseStatus;
     }
 
-    public void setResponseStatus(ResponseStataus responseStatus) {
+    public void setResponseStatus(ResponseStatus responseStatus) {
         this.responseStatus = responseStatus;
     }
 }
