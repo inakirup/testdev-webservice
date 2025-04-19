@@ -1,0 +1,5 @@
+# React
+/react-frontend/node_modules/
+
+# Java / Spring Boot
+/springboot-backend/target/
