@@ -62,6 +62,8 @@ This project consists of a Spring Boot backend that provides policy information 
 2. Enter "นายA1" as the insured name to see a successful policy response
 3. Enter any other name to see an error response
 
+![interface](interface.png)
+
 ## API Documentation
 
 ### Retrieve Policy Information
