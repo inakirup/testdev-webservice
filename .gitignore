@@ -1,5 +1,6 @@
 # React
 /react-frontend/node_modules/
+/react-frontend/.env
 
 # Java / Spring Boot
 /springboot-backend/target/
