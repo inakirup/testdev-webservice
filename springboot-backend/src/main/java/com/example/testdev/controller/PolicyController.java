@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/policy")
-@CrossOrigin(origins = "http://localhost:3000")
 public class PolicyController {
 
     @Autowired
