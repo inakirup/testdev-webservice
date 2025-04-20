@@ -1,5 +1,7 @@
 export const searchPolicies = async (requestData) => {
-    const response = await fetch('http://localhost:8080/api/policy/retrieve', {
+    const apiUrl = process.env.REACT_APP_API_URL || 'http://localhost:8080';
+
+    const response = await fetch(`${apiUrl}/api/policy/retrieve`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
